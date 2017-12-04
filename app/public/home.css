@@ -1,0 +1,121 @@
+
+body{
+
+background-image: url("images/background.jpg");
+background-size:100%;
+background-repeat:no-repeat;
+background:cover;
+
+}
+
+.pic{
+position:absolute;
+margin-top:30px;
+
+}
+.pageTitle{
+float:left;
+
+
+
+}
+#couple{
+
+width:70%;
+float:left;
+margin-left:-170px;
+
+}
+
+#heart{
+font-size:850%;
+color:white;
+padding-left:350px;
+font-family: 'Kanit', sans-serif;
+text-shadow: 2px 2px 4px #000000;
+}
+
+#match{
+font-size:210%;
+margin-top:-25px;
+color:white;
+padding-left:600px;
+font-family: 'Kanit', sans-serif;
+font-family: 'Gentium Basic', serif;
+
+}
+
+#find{
+font-family: 'Kanit', sans-serif;
+padding-left:600px;
+margin-top:50px;
+}
+
+#today{
+font-family: 'Kanit', sans-serif;
+padding-left:650px;
+margin-top:-20px;
+font-size:600%;
+}
+
+#start{
+margin-top:-10px;
+margin-left:710px;
+font-size:20px;
+font-family: 'Kanit', sans-serif;
+color:#09b0b2;
+background-color:white;
+}
+
+@media only screen and (max-width: 600px) {
+  
+}
+
+@media only screen and (max-width: 1481px) {
+    #couple {
+        #couple {
+    margin-top: 65px;
+    width: 70%;
+    float: left;
+    margin-left: -170px;
+}
+#heart {
+    font-size: 160px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: -20px;
+}
+
+#match {
+    font-size: 35px;
+    margin-left: 400px;
+    margin-top: -25px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Gentium Basic', serif;
+}
+
+#find {
+    font-family: 'Kanit', sans-serif;
+    padding-left: 500px;
+}
+
+#today {
+    font-family: 'Kanit', sans-serif;
+    padding-left: 530px;
+    margin-top: -45px;
+    font-size: 600%;
+}
+
+#start {
+    margin-top: -10px;
+    margin-left: 600px;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    background-color: white;
+    background-color: #09b0b2;
+}
+    }
+}
