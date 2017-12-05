@@ -7,7 +7,7 @@ var path = require("path");
 // Sets up the Express App
 // =============================================================
 var app = express();
-var PORT = 3000;
+var PORT = process.env.PORT || 8081;
 
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -17,11 +17,11 @@ app.use(bodyParser.json());
 
 // Routes
 // =============================================================
-
+app.use('/', express.static('app/public'));
 // Basic route that sends the user first to the AJAX Page
 app.get("/", function(req, res) {
   // res.send("Welcome to the Star Wars Page!")
-  res.sendFile(path.join(__dirname, "home.html"));
+  res.sendFile(path.join(__dirname, "app/public/home.html"));
 });
 
 // Get all characters
